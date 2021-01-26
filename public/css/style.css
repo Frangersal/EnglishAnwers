@@ -1,0 +1,214 @@
+/* Index */
+body{
+    /* background: rgb(250,155,97);
+    background: radial-gradient(circle, rgba(250,155,97,1) 0%, rgba(249,129,104,1) 64%, rgba(246,95,110,1) 94%); */
+}
+
+/* Colors */
+/* Degradado: https://cssgradient.io */
+
+.bg-blue-gradient{
+    background: rgb(58,80,125);
+    background: radial-gradient(circle, rgba(58,80,125,1) 0%, rgba(40,59,92,1) 64%, rgba(23,35,59,1) 94%);
+}
+
+.bg-red-gradient{
+    background: rgb(255,0,0);
+    background: linear-gradient(63deg, rgba(255,0,0,1) 0%, rgba(255,85,0,1) 79%, rgba(255,171,0,1) 100%);
+}
+
+.bg-green-gradient{
+    background: rgb(0,255,0);
+background: linear-gradient(63deg, rgba(0,255,0,1) 0%, rgba(0,255,119,1) 79%, rgba(164,255,0,1) 100%);
+}
+
+.bg-orange-gradient{
+    background: rgb(250,155,97);
+    background: radial-gradient(circle, rgba(250,155,97,1) 0%, rgba(249,129,104,1) 64%, rgba(246,95,110,1) 94%);
+}
+
+/* Box models */
+.box-test{
+    margin:  10px;
+    border:  10px;
+    padding: 10px;
+
+    /* height: 100px;
+    width: 100px; */
+
+    border-radius: 25px;
+}
+
+.box-blue{
+    margin-top:  20px;
+    border:  20px;
+    padding: 20px;
+
+    /* height: 100px;
+    width: 100px; */
+
+    border-radius: 25px;
+
+    box-shadow: 0px 5px 20px -5px #000000 ;
+}
+
+.box-blue-inset{
+    margin-top:  20px;
+    border:  20px;
+    padding: 20px;
+
+    /* height: 100px;
+    width: 100px; */
+
+    border-radius: 25px;
+    
+    box-shadow: inset 0px 5px 20px -5px #000000 ;
+}
+
+.box-blue-inset-content{
+    margin:  20px;
+    border:  20px;
+    padding: 20px;
+
+    /* height: 100px;
+    width: 100px; */
+
+    border-radius: 25px;
+
+    background: rgb(112,112,112);
+background: radial-gradient(circle, rgba(112,112,112,0.1) 0%, rgba(173,173,173,0.1) 64%, rgba(121, 88, 88, 0.1) 94%);
+    
+    box-shadow: inset 0px 5px 20px -5px #000000 ;
+}
+
+
+
+/* Font models */
+
+.font-test{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.font-white-title{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.font-white{
+    /* font-size: 20px; */
+    font-weight:normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.font-white-left{
+    /* font-size: 20px; */
+    margin: 20px;
+    font-weight:normal;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Centrar elementos */
+
+.center-el{
+    margin: 0px;
+    position: absolute;
+    top:    50%;
+    left:   50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.center{
+    height:   400px;
+    position: relative;
+    border:   3px ;
+}
+
+/* end Center elements */
+
+.vertical-line{
+    
+}
+
+/* Tabla  */
+.myTable {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    box-shadow: 0px 5px 20px -10px #000000 ;
+    
+}
+.myTable thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+.myTable tbody td {
+    border: solid 1px #DDEEEE;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+.myTable-rounded {
+    border: none;
+}
+.myTable-rounded thead th {
+    /* background-color: rgba(25, 50, 117, 0.548); */
+    background: rgb(112,112,112);
+    background: linear-gradient(180deg, rgba(226, 226, 226, 0.8) 0%, rgba(221, 221, 221, 0.5) 64%, rgba(255, 255, 255, 0.2) 94%);
+
+    border: none;
+    text-shadow: 1px 1px 1px rgba(58, 58, 58, 0.308);
+    color: rgb(255, 255, 255);
+}
+.myTable-rounded thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+.myTable-rounded thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+.myTable-rounded tbody td {
+    border: none;
+    /* border-top: solid 1px #957030; */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.myTable-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.myTable-rounded tbody tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+
+
+
+/* OTRA TABLA */
+
+.crucigrama, td, th {
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+  }
+  
+  .crucigrama {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .x {
+    border: solid 1px #ffffff;
+    background-color: #02022950;
+    /* opacity: 50%; */
+    width:50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }

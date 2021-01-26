@@ -1,0 +1,218 @@
+#box-circle{
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 100px;
+    width: 100px;
+
+    border-radius: 10px;
+}
+
+#transparencia{
+    opacity: 0.5;
+}
+
+#cuadro{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 157px;
+    width:  150px;
+
+    position: absolute;
+    top: 340px;
+    right:347px;
+    
+    background-color: #c58549;
+    /*border: 1px solid #000000;*/
+
+    /* border-radius: 10px; */
+}
+
+/* Circulos */
+
+#circuloA{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 150px;
+    width:  150px;
+
+    position: absolute;
+    top: 240px;
+    right:370px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+
+#circuloB{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 150px;
+    width:  150px;
+
+    position: absolute;
+    top: 194px;
+    right:403px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+
+/* PIEL CARA */
+#circuloC{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 150px;
+    width:  150px;
+
+    position: absolute;
+    top: 164px;
+    right:405px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+
+#circuloD{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 150px;
+    width:  150px;
+
+    position: absolute;
+    top: 70px;
+    right:398px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+
+#circuloE{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 180px;
+    width:  180px;
+
+    position: absolute;
+    top: 50px;
+    right:342px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+#circuloF{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 180px;
+    width:  180px;
+
+    position: absolute;
+    top: 150px;
+    right:310px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+#circuloG{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 180px;
+    width:  180px;
+
+    position: absolute;
+    top: 190px;
+    right:320px;
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+
+    border-radius: 100%;
+}
+/* cuadros */
+
+#cuadroA{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 80px;
+    width:  90px;
+
+    position: absolute;
+    top: 130px;
+    right:325px;
+
+    transform: rotate(72deg);
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+}
+
+#cuadroB{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 90px;
+    width:  100px;
+
+    position: absolute;
+    top: 150px;
+    right:450px;
+
+    transform: rotate(6deg);
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+}
+
+#cuadroC{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 50px;
+    width:  50px;
+
+    position: absolute;
+    top: 300px;
+    right:475px;
+
+    transform: rotate(55deg);
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+}
+#cuadroD{
+    /*opacity: 0.5;*/
+    margin:  10px;  border:  10px;  padding: 10px;
+
+    height: 40px;
+    width:  25px;
+
+    position: absolute;
+    top: 240px;
+    right:529px;
+
+    transform: rotate(176deg);
+    
+    background-color: #D6A67A;
+    /*border: 1px solid #000000;*/
+}
+
